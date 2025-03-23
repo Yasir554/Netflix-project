@@ -22,19 +22,20 @@ body {
 
 .login-container {
     background: rgba(0, 0, 0, 0.8);
-    padding: 40px;
+    padding: 60px;
     border-radius: 8px;
     text-align: center;
     color: white;
-    width: 320px;
+    width: 430px;
+    height: 600px;
 
     #Sign-In {
         margin-bottom: 20px;
     }
 
-    input {
+    #data {
         width: 100%;
-        padding: 12px;
+        padding: 10px;
         margin: 8px 0;
         background: #333;
         border: none;
@@ -42,11 +43,34 @@ body {
         color: white;
     }
 
-    button {
+    #remember-me{
+        margin: 10px;
+    }
+
+    #sign-up{
+        margin-top: 10px;
+    }
+
+    #sign-in {
         width: 100%;
-        padding: 12px;
+        padding: 10px;
         margin-top: 10px;
         background: red;
+        color: white;
+        font-size: 16px;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+
+    button:hover {
+        background: darkred;
+    }
+
+    #sign-in-code {
+        width: 100%;
+        padding: 10px;
+        background: grey;
         color: white;
         font-size: 16px;
         border: none;
@@ -72,5 +96,9 @@ body {
     
     a:hover {
         text-decoration: underline;
+    }
+
+    #or {
+        padding: 15px;
     }
 }
